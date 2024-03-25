@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneuservis</title>
+    <link rel="stylesheet" href="./assets/scss/dist/main.css">
+     <link rel="stylesheet" href="./node_modules/bootstrap/scss/examples/product/product.css">
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" class="rel stylesheet"> -->
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/customize.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+          <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
+            <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
+                <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+                Light
+                <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+                Dark
+                <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+                <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+                Auto
+                <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+              </button>
+            </li>
+          </ul>
+    </div> -->
+        
+    <!-- begin first header -->
+    <header class="header-top p-3 text-bg-dark" id="HomePneuservis">
+      <div class="container header-1">
+
+        <div class="flex-wrap align-items-center justify-content-center justify-content-lg-start"> 
+          <div class="nav col-12 col-lg-auto me-lg-auto ml-lg-auto mb-2 justify-content-center mb-md-0">
+              <li class="contact-social"> 
+                <p class="links_list-label"> 
+                  <img src="./images/icoMail.png" alt="">&nbsp;&nbsp; E-mail
+                </p>
+                <p class="links_list-value" style="color: #ffffff;"> 
+                  <a href="mailto:mistr.pneu@seznam.cz"> mistr.pneu@seznam.cz </a>
+               </p>
+              </li>
+              <li class="contact-social">
+                <p class="links_list-label"> 
+                  <img src="./images/icoPhone.png" alt="">&nbsp;&nbsp; Telefon
+                </p>
+                <p class="links_list-value" style="color: #ffffff;"> 
+                  <a href="tel:+420603524442"> +420 603  524 442 </a>
+                </p>
+             </li>
+            <ul class="contact-social">
+              <li><a href="https://www.facebook.com/MISTRPNEU"><i class="bi bi-facebook"></i></a></li>
+              <li><a href=""><i class="bi bi-instagram"></i></a></li>
+              <li><a href=""><i class="bi bi-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end first header -->
+    <nav class="navbar navbar-expand-sm navbar-collapse bg-dark sticky-top border-bottom" data-bs-theme="dark">
+        <a href="#HomePneuservis">
+           <img class="logo ms-lg-5" src="./images/logo.gif" alt="logo Mistr" style="height:60px; width:1200x;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- <div class="container"> -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="#offcanvasLabel">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1 justify-content-between">
+               <li class="nav-item active dropdown">
+                  <a class="nav-link nav-canvas dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Naše služby</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#Pneuservis">Pneuservis</a></li>
+                    <li><a class="dropdown-item" href="#PneuAndWheels">Pneu a kola</a></li>
+                    <li><a class="dropdown-item" href="#Washing">Ruční mytí</a></li>
+                    <li><a class="dropdown-item" href="#Cleaning">Čištění interiéru</a></li>
+                    <li><a class="dropdown-item" href="#Polishing">Leštění a korekce laku</a></li>
+                    <li><a class="dropdown-item" href="#PaintProtection">Ochrana laku</a></li>
+                    <li><a class="dropdown-item" href="#CarCosmetics">Autokosmetika</a></li>
+                    <li><a class="dropdown-item" href="#Others">Ostatní</a></li>
+                  </ul>
+                </li>               
+                <li class="nav-item"><a class="nav-link nav-canvas" href="#">Ceník</a></li>
+                <li class="nav-item"><a class="nav-link nav-canvas" href="#">Aktuality</a></li>
+                <li class="nav-item"><a class="nav-link nav-canvas" href="./pages/gallery.html">Galerie</a></li>
+                <li class="nav-item"><a class="nav-link nav-canvas" href="./pages/contact.html">Kontakt</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+    <main>
+      <!-- ********************** line 1 pneuservis-->
+      <div class="container-main" id="Pneuservis">
+         <div class="container-row d-md-flex flex-md-equal my-md-3 mx-md-5 bg-body-tertiary">
+          <div class="box-left pict-container">
+            <img src="./images/pneu.jpg">
+          </div>
+          <div class="box-right">
+            <div class="box-text py-xl-3 px-xl-5 py-2 px-3">
+              <h2 class="lead display-4 py-xl-5 ps-xl-3">PNEUSERVIS</h2>
+              <p class="display-6 text-level1 ps-xl-3">V našem pneuservisu Vám bez 
+                problému přezujeme 
+                pneumatiky i velkých rozměrů 
+                včetně pneumatik RUNFLAT i 
+                motocyklů. Provádíme také 
+                opravy defektů bezdušových 
+                pneu. Dále nabízíme také 
+                možnost sezóního uskladnění 
+                kol.</p>
+            </div>
+          </div> 
+        </div>
+
+      </div>
+      <!-- ********************** line 2 -->
+      <div class="container-main" id="PneuAndWheels">
+        <div class="container-row d-md-flex flex-md-equal my-md-3 mx-md-5 bg-body-tertiary">
+          <div class="box-left">
+            <div class="box-text py-xxl-3 px-xxl-5 py-2 px-3">
+              <h2 class="lead display-4 py-xl-2 py-xxl-5 ps-xl-3">PNEU A KOLA</h2>
+              <p class="display-6 text-level2 ps-xl-3">Nabízíme širokou škálu, jak 
+                hliníkových, tak plechových disků 
+                (poklic). Pneumatiky nabízíme od 
+                většiny výrobců na trhu a ve všech 
+                možných rozměrech včetně 
+                motorkových a cyklo pneu. Pro 
+                nezávislou nabídku pneu či disků 
+                nás neváhejte kontaktovat. 
+                K vytvoření nabídky doporučujeme 
+                vzít VELKÝ TECHNICKÝ PRŮKAZ.</p>
+            </div>
+          </div>
+          <div class="box-right pict-container">
+            <img class="img-item-wheel" src="./images/wheel.jpg">
+          </div>
+        </div>
+      </div>
+
+      <!-- ********************** line 3 ruční mytí-->
+      <div class="container-main" id="Washing">
+        <div class="container-row d-md-flex flex-md-equal my-md-3 mx-md-5 bg-body-tertiary">
+          <div class="box-left pict-container">
+            <img src="./images/washing.jpg">
+          </div>
+          <div class="box-right">
+            <div class="box-text py-md-3 px-md-5 py-2 px-3">
+              <h2 class="lead display-4 py-md-5 ps-md-3">RUČNÍ MYTÍ</h2>
+              <p class="display-6 text-level1 ps-md-3">Našim klientům nabízíme 
+                prémiové ruční mytí vozu. 
+                Klademe důraz především na 
+                individuální přístup a kvalitu.</p>
+                <a href="./pages/washing-detail.html" class="display-6 text-level1 ps-md-3 text-underline">VÍCE O RUČNÍM MYTÍ</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <!-- ********************** line 4 čištění interiérů-->
+      <div class="container-main" id="Cleaning">
+        <div class="container-row d-md-flex flex-md-equal my-md-3 mx-md-5 bg-body-tertiary">
+          <div class="box-left pict-container1">
+            <img class="img-item-interier-cleaning" src="./images/interier-cleaning-cut.jpg">
+          </div>
+          <div class="box-right">
+            <div class="box-text py-xxl-3 px-xxl-5 py-2 px-3">
+              <h2 class="lead display-4 py-md-5 ps-md-3">ČIŠTĚNÍ INTERIÉRU</h2>
+              <p class="display-6 text-level1 ps-md-3">Zajišťujeme precizní čištění interiéru i na
+                špatně dostupných místech vozu.</p>
+                <a href="./pages/interier-detail.html" class="display-6 text-level1 ps-md-3 text-underline">VÍCE O ČIŠTĚNÍ INTERIÉRU</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <!-- ********************** line 5 leštění a korekce laku-->
+      <div class="container-main" id="Polishing">
+        <div class="container-row d-md-flex flex-md-equal my-md-3 mx-md-5 bg-body-tertiary">
+          <div class="box-left">
+            <div class="box-text py-xxl-3 px-xxl-5 py-2 px-3">
+              <h2 class="lead display-4 py-xl-2 py-xxl-5 ps-xl-3">LEŠTĚNÍ A KOREKCE 
+                LAKU</h2>
+              <p class="display-6 text-level2 ps-xl-3">Jedná se o proces mechanického
+                leštění poškozené vrstvy laku. 
+                Používáme k tomu rotační či orbitální
+                leštičky, leštící pasty a kotouče
+                různých materiálů a tvrdostí. 
+                Nabízíme také rozleštěnísvětlometů.</p>
+            </div>
+          </div>
+          <div class="box-right pict-container">
+            <img class="img-item-wheel" src="./images/paint-correction.jpg">
+          </div>
+        </div>
+      </div>
+
+      <!-- ********************** line 6 ochrana laku-->
+      <div class="container-main" id="PaintProtection">
+        <div class="container-row d-md-flex flex-md-equal my-md-3 mx-md-5 bg-body-tertiary">
+          <div class="box-left">
+            <div class="box-text py-xxl-3 px-xxl-5 py-2 px-3">
+              <h2 class="lead display-4 py-xl-2 py-xxl-5 ps-xl-3">OCHRANA LAKU</h2>
+              <p class="display-6 text-level2 ps-xl-3">Jsme partnery prémiových značek KOCH 
+                Chemie, LABOCOSMETICA a další, které 
+                nám poskytují mnoho variant ochrany 
+                laku. Mezi ně se řadí například tekuté a 
+                tvrdé vosky, sealanty či keramická 
+                ochrana.</p>
+                <a href="./pages/paintProtection-detail.html" class="display-6 text-level1 ps-md-3 text-underline">VÍCE O OCHRANĚ LAKU</a>
+            </div>
+          </div>
+          <div class="box-right pict-container">
+            <img class="img-item-wheel" src="./images/paint-protection.jpg">
+          </div>
+        </div>
+      </div>
+
+      <!-- ********************** line 7 autokosmetika-->
+      <div class="container-main" id="CarCosmetics">
+        <div class="container-row d-md-flex flex-md-equal my-md-3 mx-md-5 bg-body-tertiary">
+          <div class="box-left pict-container">
+            <img src="./images/autocosmetics.jpg">
+          </div>
+          <div class="box-right">
+            <div class="box-text py-md-3 px-md-5 py-2 px-3">
+              <h2 class="lead display-4 py-md-5 ps-md-3">AUTOKOSMETIKA</h2>
+              <p class="display-6 text-level1 ps-md-3">V nabídce máme kosmetiku od značek MA-FRA, 
+                TURTLE WAX, LABOCOSMETICA, ARMOR ALL a 
+                další.</p>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <!-- ********************** line 8  ostatní-->
+      <div class="container-main" id="Others">
+        <div class="container-row d-md-flex flex-md-equal my-md-3 mx-md-5 bg-body-tertiary">
+          <div class="box-left">
+            <div class="box-text py-xxl-3 px-xxl-5 py-2 px-3">
+              <h2 class="lead display-4 py-xl-2 py-xxl-5 ps-xl-3">OSTATNÍ</h2>
+              <p class="display-6 text-level2 ps-xl-3">Prodej kolových šroubů a matic, základní 
+                povinné výbavy, stěračů, opravných sad 
+                pneumatik značky SLIME, aditiv do 
+                pohoných hmot, vůní do auta, 
+                ostřikovače a mnoho dalšího.</p>
+            </div>
+          </div>
+          <div class="box-right pict-container">
+            <img class="img-item-rest" src="./images/rest.jpg">
+          </div>
+        </div>
+      </div>      
+      </div>    
+    </main> 
+    <svg width="0" height="0">
+      <clipPath id="wheelMask" clipPathUnits="objectBoundingBox">
+        <path d="M0,1 C0.119,0.873,0.199,0.631,0.199,0.354 C0.199,0.226,0.182,0.105,0.152,0 H1 V1 H0" 
+        />
+      </clipPath>
+    </svg>
+    <svg width="0" height="0">
+      <clipPath id="cleaningMask" clipPathUnits="objectBoundingBox">
+        <path d="M1,1 C0.904,0.919,0.833,0.664,0.833,0.363 C0.833,0.229,0.847,0.104,0.871,0 L0,0 V1 H1"/>
+      </clipPath>
+    </svg>
+    <svg width="0" height="0">
+      <clipPath id="restMask" clipPathUnits="objectBoundingBox">
+        <path d="M1,0.007 V0.873 C0.894,0.952,0.759,1,0.612,1 C0.274,1,0,0.749,0,0.44 C0,0.261,0.091,0.103,0.233,0 H0.991 C0.994,0.002,0.997,0.004,1,0.007"/>
+      </clipPath>
+    </svg>
+
+    
+
+   <div class="container container-footer text-bg-dark">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="..pneu/index.html" class="nav-link px-2 text-footer">Domů</a></li>
+        <li class="nav-item"><a href="..pneu/pages/conditions.html" class="nav-link px-2 text-footer">Ochrana osobních údajů</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-footer">Ceník</a></li>
+        <li class="nav-item"><a href="..pneu/pages/contact.html" class="nav-link px-2 text-footer">Kontakt</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Renata Fialová</p>
+    </footer>
+  </div>
+    
+</body>
+</html>

@@ -1,0 +1,5 @@
+$custom-colors:(
+   "my-bs-link-color":#ffca2c
+   // "input-placeholder-color": red
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);

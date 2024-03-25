@@ -1,0 +1,27 @@
+.display-6 {
+    font-size: calc(0.95rem + 1.1vw);
+}
+
+
+@media (min-width: 860px) {
+    .display-6 {
+      font-size: 1.5rem;
+    }
+  }
+
+@media (min-width: 1050px) {
+    .display-6 {
+      font-size: 2rem;
+    }
+  }
+
+@media (min-width: 1400px) {
+    .display-6 {
+      font-size: 2.5rem;
+    }
+  }
+@media (min-width: 1600px) {
+    .display-6 {
+      font-size: 3rem;
+    }
+  }

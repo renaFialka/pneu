@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="../assets/scss/dist/main.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/scss/examples/product/product.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" class="rel stylesheet">
+    <link rel="stylesheet" href="../assets/css/customize.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- begin first header -->
+    <header class="header-top p-3 text-bg-dark" id="Gallery">
+        <div class="container header-1">
+            <div class="flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div class="nav col-12 col-lg-auto me-lg-auto ml-lg-auto mb-2 justify-content-center mb-md-0">
+                <li class="contact-social"> 
+                    <p class="links_list-label"> 
+                    <img src="../images/icoMail.png" alt="">&nbsp;&nbsp; E-mail
+                    </p>
+                    <p class="links_list-value" style="color: #ffffff;"> 
+                    <a href="mailto:mistr.pneu@seznam.cz"> mistr.pneu@seznam.cz </a>
+                    </p>
+                </li>
+                <li class="contact-social">
+                    <p class="links_list-label"> 
+                    <img src="../images/icoPhone.png" alt="">&nbsp;&nbsp; Telefon
+                    </p>
+                    <p class="links_list-value" style="color: #ffffff;"> 
+                    <a href="tel:+420603524442"> +420 603  524 442 </a>
+                    </p>
+                </li>
+                <ul class="contact-social">
+                <li><a href="https://www.facebook.com/MISTRPNEU"><i class="bi bi-facebook"></i></a></li>
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a href=""><i class="bi bi-youtube"></i></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </header>
+    <!-- end first header -->
+
+    <!-- begin mobile menu -->
+    <nav class="navbar navbar-expand-sm navbar-collapse bg-dark sticky-top border-bottom" data-bs-theme="dark">
+        <a href="../index.html">
+           <img class="logo ms-lg-5" src="../images/logo.gif" alt="logo Mistr" style="height:60px; width:1200x;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="container">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav px-4 flex-grow-1 justify-content-between">
+                <li class="nav-item">
+                  <a class="nav-link nav-canvas" href="../index.html">Domů</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-canvas" href="#PriceList">Ceník</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-canvas" href="#News">Aktuality</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link nav-canvas" href="#Gallery">Galerie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-canvas" href="./contact.html">Kontakt</a>
+                </li>                                          
+              </ul>
+            </div>
+          </div>  
+        </div>
+    </nav>
+    <!-- end mobile menu -->
+    <!-- begin breadcrumb -->
+    <div class="cont-breadcrumb px-sm-4 ms-sm-4 text-body-emphasis">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb p-1">
+          <li class="breadcrumb-item"><a href="../index.html">Domů</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Galerie</li>
+        </ol>
+      </nav>
+    </div>
+     <!-- end breadcrumb -->
+    <div class="main">
+      <div class="container-fluid">
+        <div class="row row-gallery">
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal1.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal2.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal3.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row row-gallery">
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal4.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal5.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal6.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row row-gallery">
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal7.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal8.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal9.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row row-gallery">
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal10.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal11.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal12.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row row-gallery">
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal13.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal14.jpg">
+          </div>
+          <div class="column column-gallery">
+            <img src="../images/gallery/gal15.jpg">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- <div class="container text-bg-dark">  sticky-top"> -->
+    <div class="container container-footer text-bg-dark">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-footer">Domů</a></li>
+          <li class="nav-item"><a href="../pages/conditions.html" class="nav-link px-2 text-footer">Ochrana osobních údajů</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-footer">Ceník</a></li>
+          <li class="nav-item"><a href="../pages/contact.html" class="nav-link px-2 text-footer">Kontakt</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Renata Fialová</p>
+      </footer>
+    </div>
+</body>
+</html>
